@@ -1,0 +1,177 @@
+.myLearn{
+  width: 500px;
+  height: 120px;
+  margin-top: 0px;
+  background-color: violet;
+}
+
+.couse-learn{
+  width: 500px;
+  height: 130px;
+}
+
+
+
+
+
+
+
+
+
+/* Styles for the parent container */
+.myLearn {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: fit-content; /* Adjusts to fit content */
+}
+
+/* Title styling */
+.myLearn p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Course container */
+.course-learn {
+  width: 500px;
+  height: 200px;
+  overflow-y: auto; /* Enables vertical scrolling */
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Individual course items */
+.course-item {
+  background-color: #007bff;
+  color: white;
+  height: 90px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Scrollbar styling */
+.course-learn::-webkit-scrollbar {
+  width: 8px;
+}
+
+.course-learn::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 8px;
+}
+
+.course-learn::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+}
+
+.course-learn::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.container-flex {
+  display: flex;
+  justify-content: space-between; /* Ensures space between items */
+  background-color: #4CAF50; /* Changed background color */
+  padding: 15px;
+  height: 30px;
+  box-sizing: border-box; /* Includes padding in height */
+  gap: 12px; /* Space between child items */
+}
+
+.container-flex > div {
+  flex: 1; /* Default width for items */
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 12px;
+  border-radius: 8px; /* Smoother corners */
+}
+
+.sidebarr {
+  background-color: orange;
+}
+
+.contentt {
+  background-color: green;
+  margin-left: 80px;
+  width: 250px;
+  height: auto;
+
+}
+
+.course-namee{
+  margin-left: 30px;
+  width: auto;
+  height: auto;
+  font-size: 14px;
+}
+
+/* .course-descrp{
+  background-color: yellow;
+  margin-left: 20px;
+  width: 30px;
+  height: 40px;
+
+} */
+
+
+
+
+
+.course-iconn{
+  width: 60px;
+  text-align: center;
+  height: 45px;
+  margin-top: 20px;
+  background-color: yellow;
+}
+
+.icon-user{
+
+  width: 90px;
+  height: 60px;
+  background-color: orange;
+}
+
+.name{
+  position: relative;
+  width: 140px;
+  height: 20px;
+  margin-top: 0px;
+
+}
+
+.descrp{
+  width: 200px;
+  font-size: 12px;
+}
+
+.icon-name{
+  margin-left: 130px;
+  width: 190px;
+  height: 30px;
+}
+
+.bar-user{
+  margin-top: 0px;
+  margin-left: 280px;
+  font-size: 13px;
+  width: 200px;
+  background-color: red;
+}
+
+.prog-bar{
+position: relative;
+margin-left: 420px;
+  background-color: green;
+}
